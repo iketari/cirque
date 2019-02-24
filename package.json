@@ -1,0 +1,37 @@
+{
+  "name": "cirque",
+  "version": "1.0.0",
+  "description": "An environment for e2e testing of the Behavox UIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iketari/cirque.git"
+  },
+  "keywords": [
+    "jest",
+    "puppeteer",
+    "e2e",
+    "chrome",
+    "testing"
+  ],
+  "author": "Artsiom Mezin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iketari/cirque/issues"
+  },
+  "homepage": "https://github.com/iketari/cirque#readme",
+  "devDependencies": {
+    "@types/expect-puppeteer": "^3.3.1",
+    "@types/jest": "^24.0.6",
+    "@types/jest-environment-puppeteer": "^2.2.1",
+    "@types/puppeteer": "^1.12.1",
+    "jest": "^24.1.0",
+    "jest-puppeteer": "^4.0.0",
+    "puppeteer": "^1.12.2",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.3333"
+  }
+}
